@@ -98,7 +98,7 @@ export default function ScreenHome() {
         <Input onChange={(e) => setr(e.target.value)} className="Login-input" placeholder="yield" />
         <Input onChange={(e) => setVN(e.target.value)} className="Login-input" placeholder="valeur nominale" />
         <Input onChange={(e) => setVR(e.target.value)} className="Login-input" placeholder="valeur remboursement" />
-        <Button onClick={() => handleSubmitSignin()} style={{ width: '80px' }} type="primary">Sign-in</Button>
+        <Button onClick={() => handleSubmitSignin()} style={{ width: '80px' }} type="primary">Calculer</Button>
 
       </div >
       < div className="Sign" >
